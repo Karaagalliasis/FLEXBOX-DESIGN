@@ -22,10 +22,33 @@
 
 body{
     background: white;
-    transition: background-color 300ms;
-    width: 100%;
-    margin: 0px;
 }
+
+header {
+    display: flex;
+    background: hsl(184, 100%, 22%);
+    padding: 40px 0;
+    margin: 10px 0;
+    list-style: none;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .link a {
+    width: 100%;
+  }
+
+  a {
+    display: flex;
+    flex-direction: row;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-decoration: none;
+    border: 1px solid hsl(31, 77%, 52%);
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+  }
 
 .active_1{
     width: auto;
@@ -66,6 +89,26 @@ body{
    }
 }
 
+main{
+    margin-top: 120px;
+}
+
+.flex,
+.grid {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 40ms ease;
+}
+
+.flex:hover,
+.grid:hover {
+  width: 100%;
+  background: (184, 100%, 22%);
+  text-decoration: none;
+  border-radius: 10px;
+}
 
 
 .cars-1{
